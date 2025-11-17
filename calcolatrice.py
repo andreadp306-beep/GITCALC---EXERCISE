@@ -11,7 +11,7 @@ def moltiplicazione(x, y):
     return x * y
 
 def divisione(x, y):
-    """Restituisce la divisione di x per y, gestendo la divisione per zero."""
+    """Restituisce la divisione di x diviso y, gestendo la divisione per zero."""
     if y == 0:
         return "Errore! Impossibile dividere per zero."
     return x / y
